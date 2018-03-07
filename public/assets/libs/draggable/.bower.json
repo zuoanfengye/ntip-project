@@ -1,0 +1,33 @@
+{
+  "name": "draggable",
+  "version": "4.2.0",
+  "homepage": "http://bcherny.github.io/draggable/demos",
+  "authors": [
+    "Boris Cherny <boris@performancejs.com>"
+  ],
+  "description": "High performance, fully cross browser, full featured drag and drop in a tiny (2k gzipped), dependency-free package",
+  "main": "dist/draggable.min.js",
+  "keywords": [
+    "drag",
+    "drop",
+    "drag",
+    "and",
+    "drop",
+    "dragndrop",
+    "move"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "4.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.2.0",
+    "commit": "6cbecde93f50c54650b6c83697befa212d820c5f"
+  },
+  "_source": "https://github.com/bcherny/draggable.git",
+  "_target": "^4.1.2",
+  "_originalSource": "draggable.js"
+}

@@ -1,0 +1,670 @@
+---------------------------------------------------------------
+[ 2018-03-07T15:20:47+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/wipecache?_=1520391164184
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/wipecache?_=1520391164184 [运行时间：0.021561s][吞吐率：46.38req/s] [内存消耗：2,755.73kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001317s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'wipecache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/dashboard?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  '_' => '1520391164184',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000180s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->wipecache[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000071s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:06+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/category?addtabs=1
+[ info ] localhost:8080/ntip/public/index.php/admin/category?addtabs=1 [运行时间：0.063234s][吞吐率：15.81req/s] [内存消耗：4,018.50kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000091s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003008s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/category?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000267s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ /opt/lampp/htdocs/ntip/application/admin/controller/Category.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/ntip/public/../application/admin/view/category/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'flagList',
+  6 => 'typeList',
+  7 => 'parentList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000075s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_category` [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT * FROM `ntip_category` ORDER BY weigh desc,id desc [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ntip_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:07+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1520407266
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/lang?callback=define&controllername=category&v=1520407266 [运行时间：0.026478s][吞吐率：37.77req/s] [内存消耗：2,772.97kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001186s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/category?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'category',
+  'v' => '1520407266',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000148s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000060s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:07+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/category/index?sort=weigh&order=desc&_=1520407267195
+[ info ] localhost:8080/ntip/public/index.php/admin/category/index?sort=weigh&order=desc&_=1520407267195 [运行时间：0.054144s][吞吐率：18.47req/s] [内存消耗：3,828.11kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005471s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/category?addtabs=1',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'weigh',
+  'order' => 'desc',
+  '_' => '1520407267195',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001666s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/category.php
+[ info ] [ RUN ] app\admin\controller\Category->index[ /opt/lampp/htdocs/ntip/application/admin/controller/Category.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000077s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_category` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT * FROM `ntip_category` ORDER BY weigh desc,id desc [ RunTime:0.001716s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:10+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/general/database?addtabs=1
+[ info ] localhost:8080/ntip/public/index.php/admin/general/database?addtabs=1 [运行时间：0.043115s][吞吐率：23.19req/s] [内存消耗：3,975.65kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001800s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.database',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/general/database?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000231s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/general/database.php
+[ info ] [ RUN ] app\admin\controller\general\Database->index[ /opt/lampp/htdocs/ntip/application/admin/controller/general/Database.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/ntip/public/../application/admin/view/general/database/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'tables',
+  6 => 'saved_sql',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000067s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001598s ]
+[ sql ] [ SQL ] SHOW TABLES [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ntip_auth_rule` WHERE  `name` = 'general/database' LIMIT 1 [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:10+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/lang?callback=define&controllername=general.database&v=1520407270
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/lang?callback=define&controllername=general.database&v=1520407270 [运行时间：0.025021s][吞吐率：39.97req/s] [内存消耗：2,774.71kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001304s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/general/database?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.database',
+  'v' => '1520407270',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000162s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/general/database.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000066s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:13+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/fileix?addtabs=1
+[ info ] localhost:8080/ntip/public/index.php/admin/fileix?addtabs=1 [运行时间：0.092357s][吞吐率：10.83req/s] [内存消耗：4,463.21kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002434s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'fileix',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/fileix?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000170s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Fileix->index[ /opt/lampp/htdocs/ntip/application/admin/controller/Fileix.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/ntip/public/../application/admin/view/fileix/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'data',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000084s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ntip_auth_rule` WHERE  `name` = 'fileix' LIMIT 1 [ RunTime:0.000860s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:13+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/lang?callback=define&controllername=fileix&v=1520407273
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/lang?callback=define&controllername=fileix&v=1520407273 [运行时间：0.026716s][吞吐率：37.43req/s] [内存消耗：2,771.60kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002252s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/fileix?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'fileix',
+  'v' => '1520407273',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000148s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000060s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:15+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/addon?addtabs=1
+[ info ] localhost:8080/ntip/public/index.php/admin/addon?addtabs=1 [运行时间：0.064795s][吞吐率：15.43req/s] [内存消耗：4,102.34kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001311s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/addon?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000222s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->index[ /opt/lampp/htdocs/ntip/application/admin/controller/Addon.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/ntip/public/../application/admin/view/addon/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000070s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `ntip_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:15+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1520407275
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/lang?callback=define&controllername=addon&v=1520407275 [运行时间：0.028028s][吞吐率：35.68req/s] [内存消耗：2,778.60kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001192s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/addon?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1520407275',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000219s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000080s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:18+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/general/profile?addtabs=1
+[ info ] localhost:8080/ntip/public/index.php/admin/general/profile?addtabs=1 [运行时间：0.046462s][吞吐率：21.52req/s] [内存消耗：3,954.98kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002094s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.profile',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/general/profile?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000326s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/general/profile.php
+[ info ] [ RUN ] app\admin\controller\general\Profile->index[ /opt/lampp/htdocs/ntip/application/admin/controller/general/Profile.php ]
+[ info ] [ VIEW ] /opt/lampp/htdocs/ntip/public/../application/admin/view/general/profile/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001433s ]
+---------------------------------------------------------------
+[ 2018-03-07T15:21:19+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/ajax/lang?callback=define&controllername=general.profile&v=1520407278
+[ info ] localhost:8080/ntip/public/index.php/admin/ajax/lang?callback=define&controllername=general.profile&v=1520407278 [运行时间：0.022694s][吞吐率：44.06req/s] [内存消耗：2,772.88kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001154s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/general/profile?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.profile',
+  'v' => '1520407278',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000175s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /opt/lampp/htdocs/ntip/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/general/profile.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000059s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-07T15:21:19+08:00 ] 127.0.0.1 GET /ntip/public/index.php/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1520407279241
+[ info ] localhost:8080/ntip/public/index.php/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1520407279241 [运行时间：0.046951s][吞吐率：21.30req/s] [内存消耗：3,759.27kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003153s ]
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.profile',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'content-type' => 'application/json',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1520386724; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1520386724; PHPSESSID=de43cddba7362082db9aebfea462dd53',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/604.4.7 (KHTML, like Gecko) Version/11.0.2 Safari/604.4.7',
+  'referer' => 'http://localhost:8080/ntip/public/index.php/admin/general/profile?addtabs=1',
+  'accept-language' => 'zh-cn',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  '_' => '1520407279241',
+)
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000744s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /opt/lampp/htdocs/ntip/public/../application/admin/lang/zh-cn/general/profile.php
+[ info ] [ RUN ] app\admin\controller\general\Profile->index[ /opt/lampp/htdocs/ntip/application/admin/controller/general/Profile.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000068s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=127.0.0.1;dbname=ntip;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_group_access` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `ntip_auth_group_access` `aga` LEFT JOIN `ntip_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_auth_rule` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `ntip_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ntip_admin_log` [ RunTime:0.000832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ntip_admin_log` WHERE  `admin_id` = 1 ORDER BY `id`  desc LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `ntip_admin_log` WHERE  `admin_id` = 1 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000427s ]
